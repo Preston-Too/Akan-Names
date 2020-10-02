@@ -22,3 +22,9 @@
     width: 30%;
     padding:20px;
 }
+
+.Days{
+    position: absolute;
+    left: 35%;
+    top: 50%
+}
