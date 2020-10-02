@@ -71,6 +71,38 @@
                     </figure>
                   </div>
 
+                  <div class="formbox">
+                    <h2>Find Your Name</h2>
+                    <form action="" id="myForm">
+                        <div class="inputbox">
+                            <input type="category" name="date" id="day" required="">
+                            <label for="day">Date</label>
+                        </div>
+                        <div class="inputbox">
+                            <input type="text" name="month" id="month" required="">
+                            <label for="month">Month</label>
+                        </div>
+                        
+                        <div class="inputbox">
+                            <input type="category" name="year" id="year" required="">
+                            <label for="year">Year</label>
+                        </div>
+                         <div class="gender">
+        
+                            <input type="radio" id="male" name="gender" value="option1" class="male">
+                            <label for ="male"><b>Male</b></label><br>
+            
+                            <input type="radio" id="female" name="gender" value="option2" class="female">
+                            <label for="female"><b>Female</b></label> <br> 
+                            <br>
+                            <br>
+                         </div>
+                    <button type="submit" name="submit" class="btn btn-primary" onclick="findAkanNames()">Submit</button>
+                    <button type="reset" value="Reset">Reset</button> 
+                  </form>
+                  <p id="message"></p>
+                </div>
+
 
 
 
