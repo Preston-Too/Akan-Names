@@ -14,7 +14,7 @@
     background-color: burlywood;
     padding-left: 10px;
     padding-right: 10px;
-    top:20px;
+    top:70px;
     border-radius: 35px;
     box-shadow: rgb(145, 163, 209);
     bottom: 20px;
@@ -26,5 +26,58 @@
 .Days{
     position: absolute;
     left: 35%;
-    top: 50%
+    top: 55%
+}
+
+.formbox{
+    position: absolute;
+    top: 80%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    padding: 40px;
+    background: rgba(2, 5, 36, 0.938);
+    box-shadow: 0 15px 25px rgba(1, 9, 34, 0.973);
+    border-radius: 10px;
+}
+.formbox h2{
+    color: #fff;
+    text-align: center;
+}
+.formbox .inputbox{
+    position: relative;
+}
+.formbox .inputbox input{
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+}
+.formbox .inputbox label{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 15px;
+    color:white;
+    pointer-events: none;
+    transition: .5s;
+}
+.formbox .inputbox input:focus ~ label{
+    top: -15px;
+    color: #dc3545;
+    font-size: 15px;
+}
+
+.formbox p{
+    color: #fff; 
+}
+
+.gender{
+    color: cornsilk;
 }
