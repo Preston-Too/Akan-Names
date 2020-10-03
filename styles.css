@@ -35,7 +35,7 @@
     left: 80%;
     transform: translate(-50%, -50%);
     width: 400px;
-    padding: 40px;
+    padding: 30px;
     background: rgba(2, 5, 36, 0.938);
     box-sizing: border-box;
     box-shadow: 0 15px 25px rgba(1, 9, 34, 0.973);
@@ -55,7 +55,6 @@
     padding: 10px 0;
     font-size: 16px;
     color: #fff;
-    letter-spacing: 1px;
     margin-bottom: 30px;
     border: none;
     border-bottom: 1px solid #fff;
@@ -73,34 +72,15 @@
     transition: .5s;
 }
 .formbox .inputbox input:focus ~ label{
-    top: -18px;
-    left: 0;
+    top: -15px;
     color: #dc3545;
-    font-size: 12px;
+    font-size: 15px;
 }
-.formbox .inputbox input:valid ~ label{
-    top: -18px;
-    left: 0;
-    color: #dc3545;
-    font-size: 12px;
-}
-.formbox input[type="submit"]{
-    background: transparent;
-    border: none;
-    outline: none;
-    color: #fff;
-    background: #dc3545;
-    padding: 10px 20px;
-    cursor: pointer;
-    border-radius: 5px;
-}
+
 .formbox p{
     color: #fff;
 }
-.formbox p #link{
-    color: #dc3545;
-    text-decoration: none;
-}
+
 .gender{
     color: cornsilk;
 }

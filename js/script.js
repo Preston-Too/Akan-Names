@@ -2,7 +2,7 @@ var daysOfTheWeek= ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Fri
 var maleNames= ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
 var femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
 
-function findAkanNames(){
+function generateAkanNames(){
     var day = parseInt(document.getElementById("day").value);
     var month = parseInt(document.getElementById("month").value);
     var year = parseInt(document.getElementById("year").value);
