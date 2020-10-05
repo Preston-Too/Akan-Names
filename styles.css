@@ -87,3 +87,8 @@
 #message span{
     color: #dc3545
 }
+.footer{
+    position: absolute;
+    left: 35%;
+    top: 175%;
+}
