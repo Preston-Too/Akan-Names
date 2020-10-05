@@ -24,4 +24,4 @@ For enquiries and contribution to my project, kindly reach me through E-MAIL: "t
 ### License
 * See below for more details on licensing.
 "https://choosealicense.com/licenses/mit/"
-Copyright (c) 2020 **Preston Too**
+* Copyright (c) 2020 **Preston Too**
